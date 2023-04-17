@@ -4,7 +4,7 @@ import { style } from "./DetailsScreen.style";
 export function DetailsScreen() {
   return (
     <View style={style.container}>
-      <Text>Home Screen</Text>
+      <Text testID="details-screen">Details Screen</Text>
     </View>
   );
 }
